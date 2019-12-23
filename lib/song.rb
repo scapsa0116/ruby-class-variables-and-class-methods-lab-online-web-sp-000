@@ -12,12 +12,18 @@ class Song
    @@artists << artist 
    @@genres << genre 
  end
+ 
+ 
  def self.count
    @@count
  end
+ 
+ 
  def self.artist
    @@artist.uniq 
  end 
+ 
+ 
  def self.genre 
    @@genre.uniq 
  end 
@@ -33,7 +39,8 @@ class Song
      end 
    end
   genre_count
-  end   
+  end
+  
   
   def self.artist_count
     artist_count = {}
@@ -47,8 +54,7 @@ class Song
     artist_count
   end
   
-  new_song = Song.new
-  new_song.name = ("hit me baby one more time")
-  puts new_song.name
+  
+  
         
 end   

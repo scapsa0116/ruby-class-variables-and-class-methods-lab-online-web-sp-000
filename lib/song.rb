@@ -21,4 +21,6 @@ class Song
  def self.genre 
    @@genre.uniq 
  end 
+ def genre_count
+   
 end

@@ -48,6 +48,7 @@ class Song
   end
   
   new_song = Song.new
-  new_song.name = 
+  new_song.name = ("hit me baby one more time")
+  puts new_song.name
         
 end   

@@ -46,5 +46,8 @@ class Song
     end 
     artist_count
   end
+  
+  new_song = Song.new
+  new_song.name = 
         
 end   
